@@ -1,0 +1,29 @@
+{
+  "name": "nosql-social-network-api",
+  "version": "1.0.0",
+  "description": "Back end for a social network app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuGBB/NoSQL-Social-Network-API.git"
+  },
+  "keywords": [
+    "NoSQL",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "DuG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuGBB/NoSQL-Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/DuGBB/NoSQL-Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2"
+  }
+}
