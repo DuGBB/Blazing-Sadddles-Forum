@@ -8,7 +8,7 @@ const UserShema = new Schema(
       required: "You have to provide a username!",
       trim: true,
     },
-    emaiil: {
+    email: {
       type: String,
       required: "You have to require an email!",
       unique: true,
